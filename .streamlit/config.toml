@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#3F51B5"         # Deep Indigo (CTA buttons, links)
+backgroundColor = "#f9f9fc"      # Soft paper white background
+secondaryBackgroundColor = "#ffffff"  # Card containers
+textColor = "#222222"            # Clean dark text
+font = "sans serif"              # Clean system font (can change to 'monospace' or 'serif')

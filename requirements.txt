@@ -1,0 +1,24 @@
+# Core Frameworks
+streamlit                         # Frontend/UI
+langchain                         # LangChain core logic
+langchain-community               # Tools/loaders (like PDF, web search)
+langgraph                         # Multi-step agent workflows (optional but powerful)
+
+# LLM Provider (OpenAI in this case)
+openai                            # To call GPT-4/3.5
+langchain-openai                  # LangChain wrapper for OpenAI models
+
+# Parsing & Utilities
+pymupdf                           # For parsing PDF files
+python-docx                       # For parsing .docx documents
+markdownify                       # To clean/convert HTML (optional)
+
+# Web & Tool Access
+requests                          # To hit APIs or fetch web pages
+duckduckgo-search                 # Useful for legal info scraping (optional)
+
+# Env Management
+python-dotenv                     # Load your OpenAI key securely
+
+# Optional LangChain utilities
+tiktoken                          # For token counting/limiting
